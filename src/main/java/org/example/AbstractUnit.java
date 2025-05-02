@@ -98,6 +98,6 @@ public abstract class AbstractUnit implements CombatInterface {
     public int hashCode() {
         return name.hashCode() + level;
     }
-    
+
     public abstract void takeTurn();
 }
